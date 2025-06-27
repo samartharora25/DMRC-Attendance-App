@@ -1,0 +1,39 @@
+name: myapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0-278.1.beta
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.2
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  camera: ^0.10.5+5
+
+
+ 
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+camera: ^0.10.5+5
+google_mlkit_face_detection: ^0.8.0
+path_provider: ^2.1.1
+sqflite: ^2.3.2
+
+ 
+
+flutter:
+
+
+  uses-material-design: true
