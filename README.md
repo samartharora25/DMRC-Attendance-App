@@ -8,36 +8,50 @@ Built with **Flutter** on the frontend, **Flask (Python)** on the backend, and *
 
 ## 🚀 Features
 
-- ✅ On-device facial recognition using employee face data
-- ✅ Real-time attendance logging with timestamps
-- ✅ Geofencing: ensures check-ins only within authorized DMRC premises
-- ✅ Local storage: no cloud required, all data is stored in a local folder
-- ✅ Admin-ready backend to view logs or integrate a dashboard
+- ✅ On-device facial recognition using employee face data  
+- ✅ Real-time attendance logging with timestamps  
+- ✅ Geofencing: ensures check-ins only within authorized DMRC premises  
+- ✅ Local storage: no cloud required, all data is stored in a local folder  
+- ✅ Admin-ready backend to view logs or integrate a dashboard  
+
+---
+
+## 📸 App Screenshots
+
+| Home Screen | Register Screen |
+|-------------|-----------------|
+| ![Home](./assets/home.PNG) | ![Register](./assets/register.png) |
+
+| Registered Users | Illegal Login Attempt |
+|------------------|------------------------|
+| ![Users](assets/registered_users.png) | ![Illegal](assets/illegal_login.png) |
+
+> 📝 *Place these images in a folder named `images/` in your repository.*
 
 ---
 
 ## 🧠 How It Works
 
-1. **Registration Phase**
-   - Admin registers an employee via Flutter app by uploading name, employee ID, and a face image.
+1. **Registration Phase**  
+   - Admin registers an employee via Flutter app by uploading name, employee ID, and a face image.  
    - Image is saved to `/faces/` directory and encoding is stored in `data.json`.
 
-2. **Recognition Phase**
-   - Employee opens the app and scans their face.
-   - The app sends the image to the Flask backend.
-   - The backend compares the scanned face to known encodings and verifies identity.
+2. **Recognition Phase**  
+   - Employee opens the app and scans their face.  
+   - The app sends the image to the Flask backend.  
+   - The backend compares the scanned face to known encodings and verifies identity.  
    - If successful, attendance is logged with the current timestamp.
 
-3. **Geofencing**
-   - GPS coordinates are checked before allowing attendance.
+3. **Geofencing**  
+   - GPS coordinates are checked before allowing attendance.  
    - Ensures attendance can only be marked inside DMRC premises.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Component       | Technology                     |
-|----------------|---------------------------------|
+| Component       | Technology                      |
+|-----------------|---------------------------------|
 | Frontend        | Flutter                         |
 | Backend         | Python + Flask                  |
 | Face Recognition| `face_recognition` library      |
@@ -57,6 +71,11 @@ dmrc_attendance/
 │   └── data.json          # Encoded face metadata
 ├── flutter_frontend/
 │   └── [Flutter app code]
+├── images/
+│   ├── home_screen.png
+│   ├── register_screen.png
+│   ├── registered_users.png
+│   └── illegal_login.png
 ```
 
 ---
@@ -103,11 +122,11 @@ flutter run
 
 ## 🛠️ Endpoints
 
-### `POST /register`
+### `POST /register`  
 Register a new employee face  
 **Form fields**: `name`, `emp_id`, `image`
 
-### `POST /recognize`
+### `POST /recognize`  
 Recognize face and return employee info  
 **Form field**: `image`
 
@@ -115,11 +134,11 @@ Recognize face and return employee info
 
 ## 📍 Future Improvements
 
-- Admin dashboard with attendance logs and analytics
-- Export attendance to Excel/CSV
-- OTP-based fallback login
-- Multi-location geofencing support
-- Firebase/MongoDB cloud sync (optional)
+- Admin dashboard with attendance logs and analytics  
+- Export attendance to Excel/CSV  
+- OTP-based fallback login  
+- Multi-location geofencing support  
+- Firebase/MongoDB cloud sync (optional)  
 
 ---
 
