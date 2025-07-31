@@ -24,13 +24,13 @@ Built with **Flutter** on the frontend, **Flask (Python)** on the backend, and *
 ![Home](./assets/home.PNG)
 
 ### 📝 Register Screen
-![Register](./assets/register.png)
+![Register](./assets/register.PNG)
 
 ### 📋 Registered Users
-![Users](./assets/registered_users.png)
+![Users](./assets/registered_users.PNG)
 
 ### 🚫 Illegal Login Attempt
-![Illegal](./assets/illegal_login.png)
+![Illegal](./assets/illegal_login.PNG)
 
 
 ---
