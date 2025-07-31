@@ -18,15 +18,20 @@ Built with **Flutter** on the frontend, **Flask (Python)** on the backend, and *
 
 ## 📸 App Screenshots
 
-| Home Screen | Register Screen |
-|-------------|-----------------|
-| ![Home](./assets/home.PNG) | ![Register](./assets/register.png) |
+|## 📸 App Screenshots
 
-| Registered Users | Illegal Login Attempt |
-|------------------|------------------------|
-| ![Users](assets/registered_users.png) | ![Illegal](assets/illegal_login.png) |
+### 🏠 Home Screen
+![Home](./assets/home.PNG)
 
-> 📝 *Place these images in a folder named `images/` in your repository.*
+### 📝 Register Screen
+![Register](./assets/register.png)
+
+### 📋 Registered Users
+![Users](./assets/registered_users.png)
+
+### 🚫 Illegal Login Attempt
+![Illegal](./assets/illegal_login.png)
+
 
 ---
 
@@ -97,7 +102,7 @@ pip install -r requirements.txt
 
 3. Run the Flask server:
 ```bash
-python app.py
+python3 app.py
 ```
 
 By default, the server runs at `http://127.0.0.1:5000`
