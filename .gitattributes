@@ -1,3 +1,4 @@
 * linguist-detectable=false
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
+*.py linguist-detectable=false
