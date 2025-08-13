@@ -163,9 +163,9 @@ Feel free to use and modify for non-commercial and educational purposes.
 
 ## 🙋‍♂️ Author
 
-**1.Hritish Mahajan**
-**2.Anuj Pathak**
-**3.Samarth Arora**
-**4.Sarthak Pandey**
-**5.Devang Jain**
+- Hritish Mahajan
+- Anuj Pathak
+- Samarth Arora
+- Sarthak Pandey
+- Devang Jain
 
