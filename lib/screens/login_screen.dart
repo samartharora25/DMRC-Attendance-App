@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
       var request = http.MultipartRequest(
         'POST',
-        Uri.parse('http://192.168.1.64:5050/recognize'),
+        Uri.parse('http://localhost:5050/recognize'),
       );
 
       request.files.add(
