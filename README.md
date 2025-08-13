@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ DMRC Facial Recognition Attendance System
 
 A mobile-based attendance system developed for **Delhi Metro Rail Corporation (DMRC)** employees, using **facial recognition** and **geofencing** to enable secure, contactless, and location-verified check-ins.
@@ -165,3 +166,6 @@ Feel free to use and modify for non-commercial and educational purposes.
 **Hritish Mahajan**  
 📧 hritishx@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/hritish-mahajan) | [GitHub](https://github.com/hritishmahajan)
+=======
+# DMRC-Attendance-App
+>>>>>>> 04fece730b37834d00a1ca716350fb33db46399f
